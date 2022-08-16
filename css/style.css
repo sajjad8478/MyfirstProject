@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+	color: #1f364e;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 10px 0;
+}
+/*******************************/
+/*********** colors ********/
+/*******************************/
+.text-primary {
+	color: #4c6fff;
+}
+.text-secondary {
+	color: #adb7c1;
+}
+.text-white {
+	color:white;
+}
+.text-black {
+	color: rgb(50,69,76) ;
+}
+.text-danger{
+	color:red ;
+}
+.bg-primary {
+	background-color: #4c6fff;
+}
+.bg-secondary {
+	background-color: #adb7c1;
+}
+.bg-white {
+	background-color: #fff;
+}
+.bg-black {
+	background-color: rgb(50,69,76) ;
+}
+.bg-danger{
+	background-color:red;
+}
+/*******************************/
+/*********** Typography ********/
+/*******************************/
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-small {
+	font-size: 14px;
+}
+.text-medium {
+	font-size: 18px;
+}
+.text-large {
+	font-size: 22px;
+}
+.text-xlarge {
+	font-size: 26px;
+}
+.text-xxlarge {
+	font-size: 30px;
+}
+.text-xxxlarge {
+	font-size: 34px;
+}
+.text-xxxxlarge {
+	font-size: 38px;
+}
+/*******************************/
+/*********** margin ************/
+/*******************************/
+.mt-10 {
+	margin-top: 10px;
+}
+.mr-10 {
+	margin-right: 10px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.mx-10 {
+	margin: 0 10px;
+}
+.my-10 {
+	margin: 10px 0;
+}
+.m-10 {
+	margin: 10px;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mr-20 {
+	margin-right: 20px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.ml-20 {
+	margin-left: 20px;
+}
+.mx-20 {
+	margin: 0 20px;
+}
+.my-20 {
+	margin: 20px 0;
+}
+.m-20 {
+	margin: 20px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.mr-40{
+	margin-right: 40px;
+}
+/*******************************/
+/*********** padding ***********/
+/*******************************/
+.pt-10 {
+	padding-top: 10px;
+}
+.pr-10 {
+	padding-right: 10px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pl-10 {
+	padding-left: 10px;
+}
+.px-10 {
+	padding: 0 10px;
+}
+.py-10 {
+	padding: 10px 0;
+}
+.p-10 {
+	padding: 10px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pr-20 {
+	padding-right: 20px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.pl-20 {
+	padding-left: 20px;
+}
+.px-20 {
+	padding: 0 20px;
+}
+.py-20 {
+	padding: 20px 0;
+}
+.p-20 {
+	padding: 20px;
+}
+.pb-30 {
+	padding-bottom: 30px;
+}
+.pt-30{
+	padding-top: 30px;
+}
+.pb-50{
+	padding-bottom: 50px;
+}
+/*******************************/
+/********** display ************/
+/*******************************/
+.d-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.d-block{
+	display: block;
+}
+.align-items-center{
+	align-items: center;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.justify-content-space{
+	justify-content: space-between;
+}
+/*******************************/
+/******* buttons classes *******/
+/*******************************/
+.btn {
+	padding: 7px 14px 7px 14px;
+	border-radius: 7px;
+}
+
+/*******************************/
+/******* common classes ********/
+/*******************************/
+ section {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+} 
+img {
+	height: auto;
+	max-width: 100%;
+}
+a {
+	color: #68696a;
+	text-decoration: none;
+}
+.text-underline {
+	text-decoration: underline;
+}
+.w-100{
+	width: 100% !important;
+}
+/*******************************/
+/*********** header **************/
+/*******************************/
+.navbar{
+	height: 65px;
+	top: 0;
+	padding-left: 135px;
+	padding-right: 135px;
+}
+.navbar .menu a{
+	padding-right: 50px;
+}
+.navbar .menu .btn {
+	padding: 7px 14px 7px 14px;
+}
+.navbar .menu a:hover{
+	color: red;
+}
+                                 /*******************************/
+                                  /*********** home **************/
+                                   /*******************************/
+
+.home .image{
+    flex:1 1 230px;
+}
+
+.home.image img{ 
+    width: 100%;
+}
+.home .content{
+    flex:1 1 235px;
+}
+
+                               /*******************************/
+                                  /*********** About **************/
+                                   /* /***************************** */
+  .About .about-content{
+  flex:1 1 260px;
+}
+								
+.about.image { 
+	flex:1 1 260px;
+	}
+.About .picture img{
+	width: 200px;
+	height: 200px;
+ width: 100%;
+}				
+
+                               /*******************************/
+                                  /*********** Card section **************/
+                                   /* /***************************** */			
+
+.card{
+	width: 320px;
+	border: 1px solid rgb(238, 238, 238);
+	box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+
+                                   /*******************************/
+                                  /*********** Detail section **************/
+                                   /* /***************************** */		
+
+.detail{
+	margin-left: 190px;
+	margin-right: 190px;
+	margin-bottom: 50px;
+}
+                                    /*******************************/
+                                  /*********** footer **************/
+                                   /* /***************************** */	
+
+footer .icons i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+                               /*******************************/
+                                  /*********** media queries **************/
+                                   /* /***************************** */	
+
+@media (max-width:991px){
+	
+	.detail{
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+	}
+  @media (max-width:767px){
+	.menu{
+		display: none;
+	}
+	.about-content{
+		margin-right: 50px;
+	}
+	.detail{
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+	}
+
+@media (max-width:575px){
+	body{
+		font-size: 16px;
+	}
+	section {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.About .about-content{
+		margin-bottom: 70px;
+	  } 
+	  .card{
+		margin-right: 0;
+	  } 
+	.detail{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 40px;
+		margin-right: 40px;
+	    padding-bottom: 50px;
+	}
+	.detail h1{
+		font-size: 22px;
+	}
+	
+	
+
+   
+
+
+}
